@@ -272,7 +272,7 @@ msgid "Company"
 msgstr "Compañía"
 
 #. module: sale_commission
-#: code:addons/sale_commission/models/settlement.py:189
+#: code:addons/sale_commission/models/settlement.py:193
 #, python-format
 msgid "Company must be the same"
 msgstr "La compañía debe ser la misma"
@@ -414,6 +414,11 @@ msgstr "Agente externo"
 #: selection:sale.commission,commission_type:0
 msgid "Fixed percentage"
 msgstr "Porcentaje fijo"
+
+#. module: sale_commission
+#: selection:sale.commission,commission_type:0
+msgid "Formula"
+msgstr "Fórmula"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_product_product__commission_free
@@ -683,6 +688,13 @@ msgid "Price subtotal"
 msgstr "Subtotal"
 
 #. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_analysis_report__price_subtotal_signed
+#, fuzzy
+#| msgid "Price subtotal"
+msgid "Price subtotal signed"
+msgstr "Subtotal"
+
+#. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_sale_commission_analysis_report__price_unit
 msgid "Price unit"
 msgstr "Precio unitario"
@@ -753,6 +765,11 @@ msgstr "Análisis de comisión de venta"
 #: model:ir.model,name:sale_commission.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Línea de pedido de venta"
+
+#. module: sale_commission
+#: selection:res.partner,agent_type:0
+msgid "Salesman (employee)"
+msgstr "Comercial (empleado)"
 
 #. module: sale_commission
 #: model_terms:ir.ui.view,arch_db:sale_commission.view_sale_commission_mixin_agent_only
@@ -935,7 +952,7 @@ msgid "Up to"
 msgstr "Hasta"
 
 #. module: sale_commission
-#: code:addons/sale_commission/models/settlement.py:138
+#: code:addons/sale_commission/models/settlement.py:151
 #, python-format
 msgid "Value cannot be negative"
 msgstr "El valor no puede ser negativo"
@@ -999,17 +1016,11 @@ msgstr "sale.order.line.agent"
 msgid "sections"
 msgstr "secciones"
 
-#~ msgid "Formula"
-#~ msgstr "Fórmula"
-
 #~ msgid "Quantity"
 #~ msgstr "Cantidad"
 
 #~ msgid "Quotation"
 #~ msgstr "Presupuesto"
-
-#~ msgid "Salesman (employee)"
-#~ msgstr "Comercial (empleado)"
 
 #~ msgid "Source Product"
 #~ msgstr "Producto fuente"

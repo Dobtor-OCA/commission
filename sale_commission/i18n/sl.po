@@ -273,7 +273,7 @@ msgid "Company"
 msgstr ""
 
 #. module: sale_commission
-#: code:addons/sale_commission/models/settlement.py:189
+#: code:addons/sale_commission/models/settlement.py:193
 #, python-format
 msgid "Company must be the same"
 msgstr ""
@@ -415,6 +415,11 @@ msgstr ""
 #: selection:sale.commission,commission_type:0
 msgid "Fixed percentage"
 msgstr ""
+
+#. module: sale_commission
+#: selection:sale.commission,commission_type:0
+msgid "Formula"
+msgstr "Formula"
 
 #. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_product_product__commission_free
@@ -680,6 +685,11 @@ msgid "Price subtotal"
 msgstr ""
 
 #. module: sale_commission
+#: model:ir.model.fields,field_description:sale_commission.field_sale_commission_analysis_report__price_subtotal_signed
+msgid "Price subtotal signed"
+msgstr ""
+
+#. module: sale_commission
 #: model:ir.model.fields,field_description:sale_commission.field_sale_commission_analysis_report__price_unit
 msgid "Price unit"
 msgstr ""
@@ -750,6 +760,11 @@ msgstr "Provizije pri prodaji"
 #. module: sale_commission
 #: model:ir.model,name:sale_commission.model_sale_order_line
 msgid "Sales Order Line"
+msgstr ""
+
+#. module: sale_commission
+#: selection:res.partner,agent_type:0
+msgid "Salesman (employee)"
 msgstr ""
 
 #. module: sale_commission
@@ -928,7 +943,7 @@ msgid "Up to"
 msgstr ""
 
 #. module: sale_commission
-#: code:addons/sale_commission/models/settlement.py:138
+#: code:addons/sale_commission/models/settlement.py:151
 #, python-format
 msgid "Value cannot be negative"
 msgstr ""
@@ -987,6 +1002,3 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_commission.sale_commission_form
 msgid "sections"
 msgstr ""
-
-#~ msgid "Formula"
-#~ msgstr "Formula"
